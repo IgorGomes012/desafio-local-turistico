@@ -14,49 +14,118 @@ body {
   margin: 0 auto;
 }
 
-header{
+header {
   padding: 40px 4%;
 }
 
-section{
+section {
   padding: 40px 4%;
 }
 
-header .img{
-  width:1280px;
-  height:500px;
+.border{
+  width:1280px ;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+}
+
+/* section img */
+
+header  p{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+header .img {
+  width: 1280px;
+  height: 500px;
   background-image: url(/img/busan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
-.img-templo-haedong{
-  width:1280px;
-  height:500px;
+.img-templo-haedong {
+  width: 1280px;
+  height: 500px;
   background-image: url(/img/Haedong\ yonggungsa\ temple.jfif);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
-.img-templo-beomeo{
-  width:1280px;
-  height:500px;
+.img-templo-beomeo {
+  width: 1280px;
+  height: 500px;
   background-image: url(/img/beomeosa\ temple.jfif);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
-.img-parque-yongdusan{
-  width:1280px;
-  height:500px;
+.img-parque-yongdusan {
+  width: 1280px;
+  height: 500px;
   background-image: url(/img/Park\ Yongdusan.jfif);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
+/* section img fim */
 
+h1 {
+  font-size: 38px;
+  margin: 15px 0 50px 0;
+}
 
+/* titles and paragraphos */
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  color: rgba(233, 8, 8, 0.582);
+  margin-bottom: 15px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 0 0 30px 20px;
+  color: rgba(30, 30, 250, 0.719);
+}
+
+#casais {
+  color: purple;
+}
+
+#familias {
+  color: rgb(252, 64, 96);
+}
+
+#orcamento {
+  color: orange;
+}
+
+/* titles and paragraphos fim */
+
+/* footer */
+
+footer p {
+  text-align: center;
+  padding: 40px 4%;
+}
+
+/* footer fim */
